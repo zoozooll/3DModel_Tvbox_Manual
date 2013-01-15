@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+    
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="0dp" >
+        
+        
+        <ImageView android:id="@+id/logo"
+                   android:layout_width="48dp"
+                   android:layout_height="38dp"
+                   android:layout_marginLeft="5dp"
+                   android:background="@drawable/logo"
+                   android:layout_marginTop="0dp"
+            />
+        
+          <ImageView android:id="@+id/jiugongge"
+                   android:layout_width="wrap_content"
+                   android:layout_height="55dp"
+                   android:layout_marginLeft="785dp"
+                   android:background="@drawable/nine_grid"
+                   android:layout_marginTop="0dp"
+            />
+          
+        </LinearLayout>
+    
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="120dp" >
+        
+        
+         <ImageView android:id="@+id/left_product"
+               android:layout_width="128dp"
+               android:layout_height="68dp"
+                android:layout_marginTop="65dp"
+               android:background="@drawable/main" 
+               android:layout_marginLeft="20dp"
+               /> 
+        
+
+        <ImageButton
+            android:id="@+id/btn_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/left_btn" />
+        
+
+        <ViewFlipper
+            android:id="@+id/myViewFlipper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp" >
+
+            <ImageView
+                android:id="@+id/btn_product1"
+                android:layout_width="304dp"
+                android:layout_height="196dp"
+                android:background="@drawable/a_013"
+                android:layout_marginLeft="35dp" />
+            
+
+            
+           <!--  <ImageButton
+                android:id="@+id/btn_product2"
+                android:layout_width="304dp"
+                android:layout_height="300dp"
+                android:background="@drawable/tvbox" /> -->
+            
+            
+              <ImageView
+                android:id="@+id/btn_product2"
+                   android:layout_width="304dp"
+                android:layout_height="186dp"
+                android:background="@drawable/a_013" 
+                android:layout_marginLeft="35dp"/>
+
+            <!-- <ImageButton
+                android:id="@+id/btn_product3"
+                android:layout_width="304dp"
+                android:layout_height="186dp"
+                android:background="@drawable/a013"
+                android:layout_marginLeft="75dp" />
+
+            <ImageButton
+                android:id="@+id/btn_product4"
+                android:layout_width="304dp"
+                android:layout_height="186dp"
+                android:background="@drawable/a013"
+                android:layout_marginLeft="75dp" />
+            
+              <ImageButton
+                android:id="@+id/btn_product5"
+                android:layout_width="304dp"
+                android:layout_height="186dp"
+                android:background="@drawable/a013"
+                android:layout_marginLeft="75dp" />
+              
+                <ImageButton
+                android:id="@+id/btn_product6"
+                android:layout_width="304dp"
+                android:layout_height="186dp"
+                android:background="@drawable/a013"
+                android:layout_marginLeft="75dp" />
+                
+                  <ImageButton
+                android:id="@+id/btn_product7"
+                android:layout_width="304dp"
+                android:layout_height="186dp"
+                android:background="@drawable/a013"
+                android:layout_marginLeft="75dp" />
+                  
+                    <ImageButton
+                android:id="@+id/btn_product8"
+                android:layout_width="304dp"
+                android:layout_height="186dp"
+                android:background="@drawable/a013"
+                android:layout_marginLeft="75dp" />
+                    
+                      <ImageButton
+                android:id="@+id/btn_product9"
+                android:layout_width="304dp"
+                android:layout_height="186dp"
+                android:background="@drawable/a013" 
+                android:layout_marginLeft="75dp"/>
+                      
+                        <ImageButton
+                android:id="@+id/btn_product10"
+                android:layout_width="304dp"
+                android:layout_height="186dp"
+                android:background="@drawable/a013"
+                android:layout_marginLeft="75dp" /> -->
+            
+            
+        </ViewFlipper>
+        
+        
+
+        <ImageButton
+            android:id="@+id/btn_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/right_btn" />
+        
+          <ImageView android:id="@+id/right_product"
+               android:layout_width="128dp"
+               android:layout_height="68dp"
+                android:layout_marginTop="65dp"
+               android:background="@drawable/main" 
+               android:layout_marginLeft="20dp"
+               />
+        
+    </LinearLayout>
+    
+
+    
+    </LinearLayout>
+
